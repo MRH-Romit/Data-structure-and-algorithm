@@ -30,11 +30,11 @@ while (i<n)
         printf("Element found at address %d\n",&p[i]);
         break;
     }
-    else
-    {
-        printf("Element not found\n");
-    }
     i++;
 }
 
+if (i==n)
+{
+    printf("Element not found\n");
+}
 }
