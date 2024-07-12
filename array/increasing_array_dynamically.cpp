@@ -27,3 +27,7 @@ for (int i=0; i<n; i++){
 
 return 0;
 }
+
+// best case is O(1) if key is found at the first index
+// and worst case is O(n)  if key is found at the last index
+// and average case is O((n+1/2)) if key is found at the middle of the array
