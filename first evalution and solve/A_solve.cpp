@@ -38,8 +38,8 @@ int main() {
     bubbleSort(arr, n, firstElement, lastElement);
 
     cout << "Array is sorted in " << numSwap << " swaps." << endl;
-    cout << "First element: " << firstElement << endl;
-    cout << "Last element: " << lastElement << endl;
+    cout << "First Element: " << firstElement << endl;
+    cout << "Last Element: " << lastElement << endl;
     
     return 0;
 }
