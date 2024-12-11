@@ -22,10 +22,20 @@ void printArray(int arr[], int size) {
     cout << endl;
 }
 
+void ScanArray(int arr[], int size) {
+    cout << "Enter " << size << " elements: ";
+    for (int i = 0; i < size; i++) {
+        cin >> arr[i];
+    }
+}
+
+
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    bubbleSort(arr, n);
+    int n;
+    cout << "Enter the number of elements: ";
+    cin >> n;
+    int arr[n];
+    ScanArray(arr, n);
     cout << "Sorted array: \n";
     printArray(arr, n);
     return 0;

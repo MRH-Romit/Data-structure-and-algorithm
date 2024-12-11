@@ -10,7 +10,7 @@ This course covers the fundamental concepts of data structures and algorithms, i
 - Stacks and Queues
 - Trees and Graphs
 - Sorting and Searching Algorithms
-- Hash Tables
+
 - Complexity Analysis
 
 ## Clone and Contribution
